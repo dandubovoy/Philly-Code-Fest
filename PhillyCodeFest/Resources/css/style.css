@@ -343,7 +343,7 @@ header {
 }
 
 .meal-photo img:hover {
-    opacity: 1;
+    opacity: 3;
     -webkit-transform: scale(1.03);
     -ms-transform: scale(1.03);
     transform: scale(1.03);
@@ -440,7 +440,7 @@ header {
     background-attachment: fixed;
 }
 
-blockquote {
+.long-copy {
     padding: 2%;
     font-style: italic;
     line-height: 145%;
@@ -448,7 +448,7 @@ blockquote {
     margin-top: 40px;
 }
 
-blockquote:before {
+.long-copy:before {
     content: "\201C";
     font-size: 500%;
     display: block;
