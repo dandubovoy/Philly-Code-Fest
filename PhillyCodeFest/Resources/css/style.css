@@ -55,7 +55,8 @@ section {
 /* ----- HEADINGS ----- */
 h1,
 h2,
-h3 {
+h3,
+h4 {
     font-weight: 300;
     text-transform: uppercase;
 }
@@ -80,6 +81,14 @@ h2 {
 h3 {
     font-size: 110%;
     margin-bottom: 15px;
+}
+h4{
+    font-size: 110%;
+    color: #fff;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    
+
 }
 
 h2:after {
@@ -427,7 +436,6 @@ header {
     margin-bottom: 5px;
 }
 
-
 /* ----------------------------------------------- */
 /* TESTIMONIALS */
 /* ----------------------------------------------- */
@@ -440,7 +448,7 @@ header {
     background-attachment: fixed;
 }
 
-.long-copy {
+blockquote {
     padding: 2%;
     font-style: italic;
     line-height: 145%;
@@ -448,7 +456,7 @@ header {
     margin-top: 40px;
 }
 
-.long-copy:before {
+blockquote:before {
     content: "\201C";
     font-size: 500%;
     display: block;
@@ -469,6 +477,7 @@ cite img {
     margin-right: 10px;
     vertical-align: middle;
 }
+
 
 
 /* ----------------------------------------------- */
